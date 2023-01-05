@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-enforcer-bug'
+
+include 'project-1-no-junit-allowed'
+include 'project-2-includes-project-1-and-junit'

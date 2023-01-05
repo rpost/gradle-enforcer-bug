@@ -1,0 +1,4 @@
+dependencies {
+    implementation "junit:junit:4.11"
+    implementation project(":project-1-no-junit-allowed")
+}

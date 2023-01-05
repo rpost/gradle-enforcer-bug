@@ -1,0 +1,7 @@
+apply plugin: 'org.kordamp.gradle.project-enforcer'
+
+enforce {
+    rule(enforcer.rules.BannedDependencies) { r ->
+        r.exclude('junit')
+    }
+}
